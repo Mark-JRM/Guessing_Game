@@ -21,8 +21,8 @@ public class NumberGuess {
       return bestOdds.get().getKey();
     }
 
-    Random r = new Random();
-    return r.nextInt(max - min) + min;
+    Random rand = new Random();
+    return rand.nextInt(max - min) + min;
   }
 
   public static void main(String[] args)
